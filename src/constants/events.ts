@@ -5,11 +5,7 @@ export const events = [
         eventName: 'AI Applications in Agriculture',
         category: 'Bootcamp'
     },
-    {
-        imageUrl: '/images/posts/bootcampOrange.jpg',
-        eventName: 'Flutter Mobile Development with Orange',
-        category: 'Bootcamp'
-    },
+
     {
         imageUrl: '/images/posts/bootcampSchedule.jpg',
         eventName: 'WIE ACT Bootcamp',
@@ -25,5 +21,9 @@ export const events = [
         eventName: 'Non Tech Challenge Extended',
         category: 'Extension'
     },
-
+    {
+        imageUrl: '/images/posts/bootcampOrange.jpg',
+        eventName: 'Flutter Mobile Development with Orange',
+        category: 'Bootcamp'
+    },
 ];
