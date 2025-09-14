@@ -19,5 +19,10 @@ export const events = [
         imageUrl: '/images/posts/non-tech-chall.jpg',
         eventName: 'Non Tech Challenge Extended',
         category: 'Extension'
+    },
+        {
+        imageUrl: '/images/posts/bootcampAmal.jpg',
+        eventName: 'AI Applications in Agriculture',
+        category: 'Bootcamp'
     }
 ];
