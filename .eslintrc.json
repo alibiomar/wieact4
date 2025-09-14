@@ -10,8 +10,7 @@
     "extends": [
         "plugin:@typescript-eslint/recommended",
         "eslint:recommended",
-        "next/core-web-vitals",
-        "prettier"
+        "next/core-web-vitals"
     ],
     // Add this line if not already present
     "rules": {
