@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Allura';
+  src: url('/fonts/allura.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Rosaline';
+  src: url('/fonts/Rosaline.otf') format('truetype');
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-family: 'Rosaline';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+h2 {
+  font-family: 'Allura', cursive;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
+@layer base {
+    :root {
+        --background: 0 0% 100%; /* White background */
+        --foreground: 0 0% 23%; /* Dark text */
+        --card: 0 0% 98%; /* Light gray card */
+        --card-foreground: 0 0% 15%;
+        --popover: 0 0% 98%; /* Light gray popover */
+        --popover-foreground: 330 95% 10%;
+        --primary: 330 100% 37%; /* Vivid Magenta #bd0060 */
+        --primary-foreground: 0 0% 100%;
+        --secondary: 340 53% 69%; /* Pastel Crimson #de8aa5 */
+        --secondary-foreground: 0 0% 0%;
+        --muted: 292 26% 95%;
+        --muted-foreground: 330 5% 40%;
+        --accent: 292 26% 90%;
+        --accent-foreground: 330 5% 15%;
+        --destructive: 0 50% 50%;
+        --destructive-foreground: 330 5% 96%;
+        --border: 330 15% 82%; /* Lighter border */
+        --input: 330 26% 50%;
+        --ring: 330 100% 37%; /* Matching primary */
+        --radius: 1rem;
+    }
+
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+.animate-blob {
+    animation: blob 7s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.animation-delay-2000 {
+    animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+    animation-delay: 4s;
+}
+
+@keyframes blob {
+    0% {
+        transform: scale(1) translateY(0);
+    }
+    50% {
+        transform: scale(1.5) translateY(20px);
+    }
+    100% {
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Vendor prefixes for better browser support */
+@-webkit-keyframes blob {
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+    }
+    50% {
+        -webkit-transform: scale(1.5) translateY(20px);
+        transform: scale(1.5) translateY(20px);
+    }
+    100% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+    }
+}
