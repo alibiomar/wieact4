@@ -20,7 +20,6 @@
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/ban-ts-comment": "off",
         "@typescript-eslint/no-this-alias": "off",
-        "prettier/prettier": "error",
         "no-undef": "off"
     }
 }
