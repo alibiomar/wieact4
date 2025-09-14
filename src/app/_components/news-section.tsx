@@ -41,8 +41,8 @@ const NewsSection = () => {
                     </Link>
                 </div>
 
-            <div className='flex md:flex-wrap md:flex-row flex-col md:items-start items-center md:justify-between gap-10 '>
-                {events.slice(4).map((event, index) => (
+            <div className="flex flex-col md:flex-row md:flex-wrap md:items-start items-center md:justify-between gap-10">
+                {events.slice(0, 4).map((event, index) => (
                     <PostCard
                     key={index}
                     imageUrl={event.imageUrl}
@@ -50,7 +50,8 @@ const NewsSection = () => {
                     category={event.category}
                     />
                 ))}
-                </div>
+            </div>
+
             </div>
 
             <style jsx>{`
