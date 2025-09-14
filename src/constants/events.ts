@@ -1,6 +1,11 @@
 export const events = [
 //add on top new events
     {
+        imageUrl: '/images/posts/registration.jpg',
+        eventName: 'Registration is Officially Open',
+        category: 'Announcement'
+    },
+    {
         imageUrl: '/images/posts/bootcampAmal.jpg',
         eventName: 'AI Applications in Agriculture',
         category: 'Bootcamp'

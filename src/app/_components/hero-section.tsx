@@ -128,7 +128,7 @@ const HeroSection = () => {
             </span>
             <span className='absolute inset-0 bg-gradient-to-r from-[#e00070] to-[#ff0080] opacity-0 group-hover:opacity-100 transition-opacity duration-300'></span>
           </Button></a>
-          <a href='#'><Button size='lg' className='relative overflow-hidden bg-white/10 hover:bg-white/20 text-white border border-white/20 backdrop-blur-md group transition-all duration-300 px-6 py-3 md:px-8 md:py-4'>
+          <a href='https://forms.gle/5HVfGqzxiba9jqba6'><Button size='lg' className='relative overflow-hidden bg-white/10 hover:bg-white/20 text-white border border-white/20 backdrop-blur-md group transition-all duration-300 px-6 py-3 md:px-8 md:py-4'>
             <span className='relative z-10'>Register Now</span>
             <span className='absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></span>
           </Button></a>

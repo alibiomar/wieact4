@@ -110,7 +110,7 @@ const TechChallenge = () => {
             {/* Enhanced buttons */}
             <div className='flex flex-col sm:flex-row gap-4'>
               <a
-                href='https://drive.google.com/file/d/1ZyvcUqeyCe8Xr-8iXXSlFroEYhdXqsNb/view'
+                href='https://forms.gle/5HVfGqzxiba9jqba6'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='inline-block'
