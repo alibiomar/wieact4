@@ -40,7 +40,7 @@ export default function EditionCard({ title, description, image, logo }: Readonl
           <div className='p-8 h-full flex flex-col justify-center space-y-6'>
             <div className='space-y-3'>
               <div className='flex items-center space-x-3'>
-                <Image src={logo || '/placeholder.svg'} alt={title} width={40} height={40} className='opacity-90' />
+                <Image src={logo || '/placeholder.svg'} alt={title} width={40} height={40} className='opacity-90 brightness-0 invert-1' />
                 <h3 className='text-2xl font-bold uppercase tracking-wide text-white'>{title}</h3>
               </div>
               <div className='w-12 h-0.5 bg-white/60 rounded-full' />

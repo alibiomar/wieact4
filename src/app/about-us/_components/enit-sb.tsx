@@ -2,7 +2,7 @@ import Badge from '@/components/badge';
 
 export default function EnitSb() {
     return (
-        <section className='flex flex-col items-center justify-center gap-10 md:px-40 px-10'>
+        <section className='flex flex-col z-10 items-center justify-center gap-10 md:px-40 px-10'>
             <Badge text='MEET your host' />
             <h3 className='md:text-6xl text-3xl font-bold'>IEEE ENIT SB</h3>
             <p className='md:text-lg md:w-1/2 md:text-center'>

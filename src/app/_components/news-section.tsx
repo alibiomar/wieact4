@@ -51,19 +51,6 @@ const NewsSection = () => {
                     />
                 ))}
                 </div>
-
-
-                {/* View more button for mobile */}
-                <div className='mt-12 text-center md:hidden'>
-                    <Link 
-                        className='inline-flex items-center gap-2 text-md font-medium text-[#bd0060] hover:text-[#a6304f] transition-colors'
-                        target='_blank'
-                        href='https://www.facebook.com/profile.php?id=100084776743566'
-                    >
-                        View all events
-                        <ChevronRight size={20} />
-                    </Link>
-                </div>
             </div>
 
             <style jsx>{`

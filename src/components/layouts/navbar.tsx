@@ -48,17 +48,17 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='md:hidden block'>
-                <Drawer direction='right'>
+                <Drawer direction='right' >
                     <DrawerTrigger>
-                        <MenuIcon size={35} />
+                        <MenuIcon size={35} className='text-white' />
                     </DrawerTrigger>
                     <DrawerContent>
                         <div className='flex flex-col p-10 gap-20 '>
                             <Image
-                                src='/images/logo.webp'
+                                src='/images/WIE ACT 4.0.png'
                                 className='self-center'
-                                width={50}
-                                height={40}
+                                width={100}
+                                height={60}
                                 alt='Logo of WIE ACT'
                             />
                             <div className='flex flex-col gap-10 '>
@@ -66,7 +66,7 @@ const Navbar = () => {
                                     <Link
                                         key={index}
                                         href={item.link}
-                                        className='text-foreground hover:text-white duration-200 font-medium'>
+                                        className='text-white hover:text-balck duration-200 font-medium'>
                                         {item.name}
                                     </Link>
                                 ))}
