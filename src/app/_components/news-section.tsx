@@ -2,8 +2,7 @@
 import PostCard from '@/components/cards/post-card';
 import { events } from '@/constants/events';
 import Link from 'next/link';
-import { useState } from 'react';
-import { ChevronRight, Calendar, MapPin, ArrowRight } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 const NewsSection = () => {
 

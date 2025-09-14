@@ -11,13 +11,4 @@
         "plugin:@typescript-eslint/recommended",
         "eslint:recommended",
         "next/core-web-vitals"
-    ],
-    // Add this line if not already present
-    "rules": {
-        "no-unused-vars": "off",
-        "@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/ban-ts-comment": "off",
-        "@typescript-eslint/no-this-alias": "off",
-        "no-undef": "off"
-    }
-}
+    ]}

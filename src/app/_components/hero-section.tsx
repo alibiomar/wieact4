@@ -37,7 +37,7 @@ const HeroSection = () => {
       setCurrentWord((prev) => (prev + 1) % words.length);
     }, 2000);
     return () => clearInterval(interval);
-  }, []);
+  }, [words.length]);
 
   const sponsors: Sponsor[] = [
     { src: students, alt: 'IEEE Students Logo' },
