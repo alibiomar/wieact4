@@ -1,5 +1,3 @@
-import Badge from '@/components/badge';
-import Image from 'next/image';
 
 export default function HeroSection() {
     return (

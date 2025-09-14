@@ -1,5 +1,4 @@
 import { ebTeams } from '@/constants/teams';
-import Image from 'next/image';
 import EventDate from './_components/event-date-section';
 import GetToKnow from './_components/get-to-know-section';
 import HeroSection from './_components/hero-section';

@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { useState, useEffect, useRef } from 'react';
 import Badge from '@/components/badge';
 import TeamCard from '@/components/cards/team-card';
@@ -79,15 +79,15 @@ const TeamsSection = ({
 
 
       {/* Enhanced animated floating elements with different sizes and speeds */}
-      <div className="absolute inset-0 opacity-40 z-0 overflow-hidden">
-        <div className="floating-element absolute top-1/4 left-1/4 w-48 h-48 md:w-80 md:h-80 bg-gradient-to-br from-[#7400e0] to-[#9d4edd] rounded-full mix-blend-soft-light filter blur-[60px] md:blur-[80px] animate-float opacity-60"></div>
-        <div className="floating-element absolute top-1/3 right-1/4 w-56 h-56 md:w-96 md:h-96 bg-gradient-to-br from-[#e2b93c] to-[#f4a261] rounded-full mix-blend-soft-light filter blur-[70px] md:blur-[90px] animate-float-delayed opacity-50"></div>
-        <div className="floating-element absolute bottom-1/4 left-1/3 w-40 h-40 md:w-72 md:h-72 bg-gradient-to-br from-[#6c9727] to-[#8bc34a] rounded-full mix-blend-soft-light filter blur-[50px] md:blur-[70px] animate-float-slow opacity-45"></div>
-        <div className="floating-element absolute top-1/2 right-1/3 w-32 h-32 md:w-60 md:h-60 bg-gradient-to-br from-[#925775] to-[#c77dff] rounded-full mix-blend-soft-light filter blur-[40px] md:blur-[60px] animate-float-fast opacity-35"></div>
+      <div className='absolute inset-0 opacity-40 z-0 overflow-hidden'>
+        <div className='floating-element absolute top-1/4 left-1/4 w-48 h-48 md:w-80 md:h-80 bg-gradient-to-br from-[#7400e0] to-[#9d4edd] rounded-full mix-blend-soft-light filter blur-[60px] md:blur-[80px] animate-float opacity-60'></div>
+        <div className='floating-element absolute top-1/3 right-1/4 w-56 h-56 md:w-96 md:h-96 bg-gradient-to-br from-[#e2b93c] to-[#f4a261] rounded-full mix-blend-soft-light filter blur-[70px] md:blur-[90px] animate-float-delayed opacity-50'></div>
+        <div className='floating-element absolute bottom-1/4 left-1/3 w-40 h-40 md:w-72 md:h-72 bg-gradient-to-br from-[#6c9727] to-[#8bc34a] rounded-full mix-blend-soft-light filter blur-[50px] md:blur-[70px] animate-float-slow opacity-45'></div>
+        <div className='floating-element absolute top-1/2 right-1/3 w-32 h-32 md:w-60 md:h-60 bg-gradient-to-br from-[#925775] to-[#c77dff] rounded-full mix-blend-soft-light filter blur-[40px] md:blur-[60px] animate-float-fast opacity-35'></div>
       </div>
 
       {/* Enhanced particle system */}
-      <div className="absolute inset-0 z-0 opacity-25">
+      <div className='absolute inset-0 z-0 opacity-25'>
         {[...Array(40)].map((_, i) => (
           <div
             key={i}
@@ -107,13 +107,13 @@ const TeamsSection = ({
       </div>
 
       {/* Subtle grid overlay */}
-      <div className="absolute inset-0 z-0 opacity-5 bg-[linear-gradient(rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
+      <div className='absolute inset-0 z-0 opacity-5 bg-[linear-gradient(rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:50px_50px]'></div>
 
-      <div className="max-w-7xl mx-auto relative z-10 px-4">
+      <div className='max-w-7xl mx-auto relative z-10 px-4'>
         <div className='grid lg:grid-cols-1 gap-20 items-center'>
           <div className='space-y-12'>
             {/* Enhanced header section */}
-            <div className="space-y-8 text-center">
+            <div className='space-y-8 text-center'>
               <div className={`transition-all duration-1000 ease-out transform ${
                 isVisible ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-16 opacity-0 scale-95'
               }`}>
@@ -136,7 +136,7 @@ const TeamsSection = ({
             </div>
             
             {/* Enhanced team cards grid with improved spacing and animations */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-16">
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-16'>
               {teams.map((team, index) => (
                 <div
                   key={index}
@@ -162,7 +162,7 @@ const TeamsSection = ({
             <div className={`text-center transition-all duration-1000 ease-out transform ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`} style={{ transitionDelay: '1000ms' }}>
-              <p className="text-slate-400 text-sm">
+              <p className='text-slate-400 text-sm'>
                 Meet our team of {teams.length} dedicated professionals
               </p>
             </div>
