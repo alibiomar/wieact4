@@ -8,14 +8,15 @@ export const metadata: Metadata = {
     title: 'WIE ACT 4.0',
     description: 'Women in Engineering Annual Congress of Tunisia 4.0',
     keywords: 'WIE ACT, Women in Engineering, Congress, Tunisia, 2025',
+    themeColor: '#1a0511',
     openGraph: {
         title: 'WIE ACT 4.0',
         description: 'Women in Engineering Annual Congress of Tunisia 4.0',
-        url: 'https://wie-act.tn',
+        url: 'https://wieact4.vercel.app/',
         type: 'website',
         images: [
             {
-                url: 'https://wie-act.tn/images/logo.webp',
+                url: 'https://wieact4.vercel.app/images/WIE ACT 4.0.png',
                 width: 800,
                 height: 600,
                 alt: 'WIE ACT 4.0'
