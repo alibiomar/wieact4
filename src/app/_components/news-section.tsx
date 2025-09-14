@@ -42,7 +42,7 @@ const NewsSection = () => {
                 </div>
 
             <div className='flex md:flex-wrap md:flex-row flex-col md:items-start items-center md:justify-between gap-10 '>
-                {events.slice(-4).map((event, index) => (
+                {events.slice(4).map((event, index) => (
                     <PostCard
                     key={index}
                     imageUrl={event.imageUrl}
