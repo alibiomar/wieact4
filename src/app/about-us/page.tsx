@@ -17,23 +17,22 @@ export default function AboutUsPage() {
                 style={{
                     backgroundImage: `url(/images/hero-about-bg.webp)`
                 }}></div>
-      <div className='absolute inset-0 -z-10 '>
-        <Image
-          src={BackgroundImage}
-          alt='golden wheat field'
-          fill
-          className='object-cover'
-          quality={100}
-          priority
-        />           
-        <div className='absolute inset-0 bg-gradient-to-b  from-black/60 via-black/0 to-black/30 backdrop-blur-md'></div>
-   </div>
-        <div className='absolute inset-0 z-[1] pointer-events-none'>
-
-        {/* Bottom white gradient */}
-        <div className='absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-white via-white to-transparent'></div>
-      </div>
-            <HeroSection />
+        <div className='absolute inset-0 -z-10 '>
+            <Image
+            src={BackgroundImage}
+            alt='Woman holding a plant in an agricultural field'
+            fill
+            className='object-cover'
+            quality={100}
+            priority
+            />           
+            <div className='absolute inset-0 bg-gradient-to-b  from-black/60 via-black/0 to-black/30 backdrop-blur-md'></div>
+        </div>
+        <HeroSection />
+            <div className='absolute inset-0 z-[1] pointer-events-none'>
+                <div className='absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-white via-white to-transparent'></div>
+            </div>
+            
             <PreviousEditions />
             <div
                 className='relative w-full md:h-[800px] h-auto bg-cover bg-center bg-no-repeat  rounded-t-lg md:-mt-40 -mt-20'

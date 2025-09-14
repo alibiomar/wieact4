@@ -3,11 +3,12 @@ import EditionCard from './edition-card';
 
 export default function PreviousEditions() {
     return (
-        <section className='flex flex-col gap-10 md:px-40 px-10 md:pt-0 pt-40'>
+        <section className='flex flex-col gap-10 md:px-40 px-10 md:pt-0 -mt-52 md:mt-0 z-20 pt-40'>
             <Badge text='PREVIOUS VERSIONS' />
-            <h3 className='md:text-4xl text-2xl font-bold'>
-                WIE ACT 1.0 & 2.0 & 3.0
-            </h3>
+            <h3 className="md:text-4xl text-2xl font-bold text-[#f67cb3]">
+  WIE ACT 1.0 &amp; 2.0 &amp; 3.0
+</h3>
+
 
             <div className='flex md:flex-row flex-col items-stretch gap-20 w-full justify-center'>
                 <EditionCard
