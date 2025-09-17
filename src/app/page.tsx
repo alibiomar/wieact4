@@ -16,7 +16,7 @@ export default function Home() {
             <GetToKnow />
             <EventDate />
             <TechChallenge />
-            <Speakers />
+            {/* <Speakers /> */}
             <TeamsSection
                 title='Our Teams'
                 description='Get to know the dedicated team behind WIE ACT 4.0'
