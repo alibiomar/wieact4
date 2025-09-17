@@ -1,6 +1,12 @@
 export const events = [
 //add on top new events
     {
+        imageUrl: '/images/posts/bootcampYassine.jpg',
+        eventName: 'How to Build GenAI Apps',
+        category: 'Bootcamp'
+
+    },
+    {
         imageUrl: '/images/posts/registration.jpg',
         eventName: 'Registration is Officially Open',
         category: 'Announcement'
