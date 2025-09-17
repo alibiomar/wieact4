@@ -83,8 +83,8 @@ const TechChallenge = () => {
                   <div className='bg-white/10 rounded-full p-3 w-fit mx-auto mb-2 group-hover:bg-[#541d36]/20 transition-colors'>
                     <Trophy size={20} className='text-[#541d36]' />
                   </div>
-                  <div className='font-round-gothic text-2xl font-bold text-[#541d36]'>+3K TND</div>
-                  <div className='font-montserrat text-white/80 text-xs'>Prize Pool</div>
+                  <div className='font-round-gothic text-2xl font-bold text-[#541d36]'>Cash</div>
+                  <div className='font-montserrat text-white/80 text-xs'>Prizes</div>
                 </div>
                 <div className='text-center group-hover:scale-105 transition-transform duration-300'>
                   <div className='bg-white/10 rounded-full p-3 w-fit mx-auto mb-2 group-hover:bg-[#541d36]/20 transition-colors'>
