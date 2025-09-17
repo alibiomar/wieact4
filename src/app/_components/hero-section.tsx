@@ -11,7 +11,6 @@ import wie from '/public/images/sponsors/wie.png';
 import gomycode from '/public/images/sponsors/gomycode.png';
 import orange from '/public/images/sponsors/orange.png';
 import smc from '/public/images/sponsors/smc.png';
-import students from '/public/images/sponsors/students.webp';
 import enit from '/public/images/sponsors/enit.png';
 import section from '/public/images/sponsors/section.webp';
 import BackgroundImage from '/public/images/hero-bg.webp';
@@ -40,7 +39,6 @@ const HeroSection = () => {
   }, [words.length]);
 
   const sponsors: Sponsor[] = [
-    { src: students, alt: 'IEEE Students Logo' },
     { src: smc, alt: 'IEEE SMC Logo' },
     { src: eps, alt: 'IEEE EPS Logo' },
     { src: actia, alt: 'ACTIA Group Logo' },

@@ -47,7 +47,7 @@ const EventDate = () => {
               <div className='w-full space-y-2 mt-3'>
                 <div className='flex items-center gap-2 text-[#442332]/90 justify-center'>
                   <Clock size={18} />
-                  <p className='text-lg font-medium'>10:00 AM</p>
+                  <p className='text-lg font-medium'>2:00 PM</p>
                 </div>
                 
                 <div className='flex items-center gap-2 text-[#442332]/80 text-sm justify-center'>
@@ -82,7 +82,7 @@ const EventDate = () => {
               <div className='w-full space-y-2 mt-3'>
                 <div className='flex items-center gap-2 text-[#442332]/90 justify-center'>
                   <Clock size={18} />
-                  <p className='text-lg font-medium'>2:00 PM</p>
+                  <p className='text-lg font-medium'>3:00 PM</p>
                 </div>
                 
                 <div className='flex items-center gap-2 text-[#442332]/80 text-sm justify-center'>

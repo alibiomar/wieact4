@@ -47,7 +47,7 @@ export default function AboutUsPage() {
             <WieEsprit />
             <TeamsSection
                 title='Our Teams'
-                description='Get to know the dedicated team behind WIE ACT 3.0'
+                description='Get to know the dedicated team behind WIE ACT 4.0'
                 teams={ebTeams}
             />
             {/* {Object.entries(oc).map(([teamName, members]) => (
