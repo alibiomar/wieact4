@@ -8,12 +8,17 @@ import ias from '/public/images/sponsors/ias.png';
 import actia from '/public/images/sponsors/actia.png';
 import starwave from '/public/images/sponsors/starwave.png';
 import wie from '/public/images/sponsors/wie.png';
+import wietn from '/public/images/sponsors/wietn.png';
+
 import gomycode from '/public/images/sponsors/gomycode.png';
 import orange from '/public/images/sponsors/orange.png';
 import smc from '/public/images/sponsors/smc.png';
 import enit from '/public/images/sponsors/enit.png';
 import section from '/public/images/sponsors/section.webp';
 import BackgroundImage from '/public/images/hero-bg.webp';
+import aess from '/public/images/sponsors/aess.png';
+import mtts from '/public/images/sponsors/mtts.png';
+import r8 from '/public/images/sponsors/WIE Region 8 white.png';
 import { StaticImageData } from 'next/image';
 
 interface Sponsor {
@@ -49,6 +54,10 @@ const HeroSection = () => {
     { src: section, alt: 'IEEE Tunisia Section Logo' },
     { src: enit, alt: 'Esprit Logo' },
     { src: wie, alt: 'IEEE WIE Logo' },
+    { src: wietn, alt: 'IEEE WIE Tunisia Logo' },
+    { src: aess, alt: 'IEEE Aerospace and Electronic Systems Society Logo' },
+    { src: mtts, alt: 'IEEE Microwave Theory and Techniques Society Logo' },
+    { src: r8, alt: 'IEEE WIE Region 8 Logo' }
   ];
 
   const duplicatedSponsors = [...sponsors, ...sponsors];
